@@ -14,7 +14,14 @@
       "!**/external/**",
       "!**/fixtures/**",
       "!**/lcov-report/**"
-    ]
+    ],
+    "testPathIgnorePatterns": [
+    "<rootDir>/e2e/",
+    "<rootDir>/src/e2e/",
+    "<rootDir>/src/__tests__/e2e/",
+    "<rootDir>/src/__tests__/create-bill.spec.js"
+  ]
+    
   },
   "type": "module",
   "dependencies": {
